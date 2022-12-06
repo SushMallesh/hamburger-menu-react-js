@@ -1,0 +1,71 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dcdcdc;
+  width: 90%;
+}
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .navbar-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+.popup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.icon {
+  width: 50px;
+  height: 30px;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.close-button {
+  align-self: flex-end;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+}
+
+.nav-links-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
